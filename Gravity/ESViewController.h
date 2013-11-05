@@ -10,4 +10,8 @@
 
 @interface ESViewController : UIViewController
 
+@property (nonatomic) NSMutableArray *bubbles;
+
+- (void)handleBubble:(UITapGestureRecognizer *) recognizer;
+
 @end

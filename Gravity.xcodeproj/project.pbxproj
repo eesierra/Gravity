@@ -21,6 +21,7 @@
 		911F9C331824674200160AAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911F9C151824674200160AAD /* UIKit.framework */; };
 		911F9C3B1824674200160AAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 911F9C391824674200160AAD /* InfoPlist.strings */; };
 		911F9C3D1824674200160AAD /* GravityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F9C3C1824674200160AAD /* GravityTests.m */; };
+		91837C521828768E006738B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91837C511828768E006738B6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		911F9C381824674200160AAD /* GravityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GravityTests-Info.plist"; sourceTree = "<group>"; };
 		911F9C3A1824674200160AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		911F9C3C1824674200160AAD /* GravityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityTests.m; sourceTree = "<group>"; };
+		91837C511828768E006738B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91837C521828768E006738B6 /* QuartzCore.framework in Frameworks */,
 				911F9C141824674200160AAD /* CoreGraphics.framework in Frameworks */,
 				911F9C161824674200160AAD /* UIKit.framework in Frameworks */,
 				911F9C121824674200160AAD /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		911F9C101824674200160AAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				91837C511828768E006738B6 /* QuartzCore.framework */,
 				911F9C111824674200160AAD /* Foundation.framework */,
 				911F9C131824674200160AAD /* CoreGraphics.framework */,
 				911F9C151824674200160AAD /* UIKit.framework */,
@@ -461,6 +465,7 @@
 				911F9C421824674200160AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		911F9C431824674200160AAD /* Build configuration list for PBXNativeTarget "GravityTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				911F9C451824674200160AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
